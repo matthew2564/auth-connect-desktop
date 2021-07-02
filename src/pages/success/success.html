@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Success</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    This is a page to emulate what happens on token refresh. After the token has expired please click 'Get Data' again
+    This should boot you back to the root page which is what we're trying to avoid.
+
+    <ion-row>
+        <button ion-button (click)="getData()">
+            Get Data
+        </button>
+    </ion-row>
+
+    <pre>{{response | json}}</pre>
+
+</ion-content>
