@@ -14,6 +14,18 @@
         </button>
     </ion-row>
 
+    <ion-row>
+        <button ion-button (click)="manualRefresh()">
+            Refresh
+        </button>
+    </ion-row>
+
+    <ion-row>
+        <ion-item>{{tokenExp}}</ion-item>
+    </ion-row>
+
+
+
     <pre>{{response | json}}</pre>
 
 </ion-content>
