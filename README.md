@@ -13,3 +13,4 @@ Steps to run
 - Obtain the .npmrc and ionic.config.json files
 - `npm install`
 - `ionic serve`
+foo
